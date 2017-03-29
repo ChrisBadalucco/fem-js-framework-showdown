@@ -2,7 +2,7 @@
 var Todos = Todos || {};
 Todos.Todo = Todos.Todo || {};
 
-Todos.Todo.FIXTURES = [
+Todos.Todo.FIXTURES = [ // FIXTURES are for use with the FixtureAdapater (i think? it automagically knows to look for local fixtures at some point)
  {
    id: 1,
    val: 'Learn Ember.js',
